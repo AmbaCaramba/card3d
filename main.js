@@ -29,7 +29,7 @@ new THREE.MeshBasicMaterial( {
 new THREE.MeshBasicMaterial( {
   // color: 'purple',
   //wireframe: true
-  map: textureloader.load('./card.jpg'),
+  map: textureloader.load('card.jpg'),
 } ),
 ];
 
