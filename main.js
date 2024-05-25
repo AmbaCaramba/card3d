@@ -1,4 +1,4 @@
-import * as THREE from 'three.module.js';
+import * as THREE from './three.module.js';
 
 // Create the scene, camera, and renderer
 const scene = new THREE.Scene();
@@ -29,7 +29,7 @@ new THREE.MeshBasicMaterial( {
 new THREE.MeshBasicMaterial( {
   // color: 'purple',
   //wireframe: true
-  map: textureloader.load('card.jpg'),
+  map: textureloader.load('./card.jpg'),
 } ),
 ];
 
